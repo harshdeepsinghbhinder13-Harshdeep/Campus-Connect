@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172B4D">
+  <title>Resources | Campus Connect</title>
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="portal">
+  <a class="skip-link visually-hidden-focusable position-absolute bg-white p-2" href="#main-content">Skip to content</a>
+
+  <input type="checkbox" class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+  <label class="nav-backdrop" for="nav-toggle"></label>
+  <aside class="mobile-nav" aria-label="Navigation">
+    <div class="mobile-nav-head">
+      <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 40" fill="none">
+            <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+          </svg>
+        </span>
+        Campus Connect
+      </a>
+      <label class="btn-close" for="nav-toggle" aria-label="Close navigation"></label>
+    </div>
+    <div class="mobile-nav-body">
+      <nav class="sidebar-nav">
+        <a href="dashboard.html"><i class="bi bi-grid" aria-hidden="true"></i>Dashboard</a>
+        <a href="events.html"><i class="bi bi-calendar4-event" aria-hidden="true"></i>Events</a>
+        <a href="announcements.html"><i class="bi bi-megaphone" aria-hidden="true"></i>Announcements</a>
+        <a href="resources.html" class="active" aria-current="page"><i class="bi bi-journal-text" aria-hidden="true"></i>Resources</a>
+        <a href="clubs.html"><i class="bi bi-people" aria-hidden="true"></i>Clubs</a>
+        <a href="profile.html"><i class="bi bi-person" aria-hidden="true"></i>Profile</a>
+      </nav>
+      <a class="mobile-public-link d-block mt-4" href="index.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to campus home</a>
+    </div>
+  </aside>
+
+  <aside class="sidebar">
+    <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 36 40" fill="none">
+          <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+        </svg>
+      </span>
+      Campus Connect
+    </a>
+    <p class="sidebar-tagline">Your Campus. One Platform.</p>
+    <span class="sidebar-label">STUDENT PORTAL</span>
+    <nav class="sidebar-nav" aria-label="Student navigation">
+      <a href="dashboard.html"><i class="bi bi-grid" aria-hidden="true"></i>Dashboard</a>
+      <a href="events.html"><i class="bi bi-calendar4-event" aria-hidden="true"></i>Events</a>
+      <a href="announcements.html"><i class="bi bi-megaphone" aria-hidden="true"></i>Announcements</a>
+      <a href="resources.html" class="active" aria-current="page"><i class="bi bi-journal-text" aria-hidden="true"></i>Resources</a>
+      <a href="clubs.html"><i class="bi bi-people" aria-hidden="true"></i>Clubs</a>
+      <a href="profile.html"><i class="bi bi-person" aria-hidden="true"></i>Profile</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <a href="index.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to campus home</a>
+      <p>Demo portal · Fictional student data.</p>
+    </div>
+  </aside>
+
+  <div class="portal-shell">
+    <header class="portal-topbar">
+      <div class="breadcrumb-small">
+        <a href="index.html">Home</a>
+        <i class="bi bi-chevron-right" aria-hidden="true"></i>
+        <span>Resources</span>
+      </div>
+      <div class="mobile-brand">
+        <label class="btn menu-toggle" for="nav-toggle" aria-label="Open navigation"><i class="bi bi-list" aria-hidden="true"></i></label>
+        <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 40" fill="none">
+              <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+            </svg>
+          </span>
+          Campus Connect
+        </a>
+      </div>
+      <a href="profile.html" class="account-link">
+        <span>Abhinav Nandeshwar</span>
+        <span class="avatar">AN</span>
+      </a>
+    </header>
+
+    <main class="portal-main" id="main-content">
+      <div class="page-header">
+        <h1>Study Resources</h1>
+        <p>Notes, reference material, and previous question papers.</p>
+      </div>
+      <div class="filterable">
+        <div class="filter-bar" role="radiogroup" aria-label="Filter resources by type">
+          <input class="chip-input" type="radio" name="filter" id="f-all" checked>
+          <label class="chip" for="f-all">All</label>
+          <input class="chip-input" type="radio" name="filter" id="f-notes">
+          <label class="chip" for="f-notes">Notes</label>
+          <input class="chip-input" type="radio" name="filter" id="f-reference">
+          <label class="chip" for="f-reference">Reference</label>
+          <input class="chip-input" type="radio" name="filter" id="f-question-paper">
+          <label class="chip" for="f-question-paper">Question Paper</label>
+        </div>
+        <p class="results-count">6 resources · Free to download</p>
+        <div class="notice-list table-responsive">
+          <table class="table resource-table">
+            <thead>
+              <tr>
+                <th scope="col">RESOURCE NAME</th>
+                <th scope="col">SUBJECT</th>
+                <th scope="col">TYPE</th>
+                <th scope="col">SEMESTER</th>
+                <th scope="col">ACTION</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="item c-notes">
+                <td>
+                  <div class="resource-name">
+                    <span class="file-icon"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></span>
+                    <div>Data Structures — Unit 1 Notes<small>TXT · Sample document</small></div>
+                  </div>
+                </td>
+                <td>Data Structures</td>
+                <td><span class="badge-subtle">Notes</span></td>
+                <td>Semester 3</td>
+                <td><a class="btn btn-light" href="assets/resources/data-structures.txt" download><i class="bi bi-download" aria-hidden="true"></i>Download</a></td>
+              </tr>
+              <tr class="item c-reference">
+                <td>
+                  <div class="resource-name">
+                    <span class="file-icon"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></span>
+                    <div>DBMS — Normalization Guide<small>TXT · Sample document</small></div>
+                  </div>
+                </td>
+                <td>Database Management</td>
+                <td><span class="badge-subtle">Reference</span></td>
+                <td>Semester 5</td>
+                <td><a class="btn btn-light" href="assets/resources/dbms-normalization.txt" download><i class="bi bi-download" aria-hidden="true"></i>Download</a></td>
+              </tr>
+              <tr class="item c-question-paper">
+                <td>
+                  <div class="resource-name">
+                    <span class="file-icon"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></span>
+                    <div>Operating Systems — Previous Question Paper<small>TXT · Sample document</small></div>
+                  </div>
+                </td>
+                <td>Operating Systems</td>
+                <td><span class="badge-subtle">Question Paper</span></td>
+                <td>Semester 5</td>
+                <td><a class="btn btn-light" href="assets/resources/os-question-paper.txt" download><i class="bi bi-download" aria-hidden="true"></i>Download</a></td>
+              </tr>
+              <tr class="item c-notes">
+                <td>
+                  <div class="resource-name">
+                    <span class="file-icon"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></span>
+                    <div>Computer Networks — Study Notes<small>TXT · Sample document</small></div>
+                  </div>
+                </td>
+                <td>Computer Networks</td>
+                <td><span class="badge-subtle">Notes</span></td>
+                <td>Semester 5</td>
+                <td><a class="btn btn-light" href="assets/resources/computer-networks.txt" download><i class="bi bi-download" aria-hidden="true"></i>Download</a></td>
+              </tr>
+              <tr class="item c-reference">
+                <td>
+                  <div class="resource-name">
+                    <span class="file-icon"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></span>
+                    <div>Web Development — HTML &amp; CSS Basics<small>TXT · Sample document</small></div>
+                  </div>
+                </td>
+                <td>Web Development</td>
+                <td><span class="badge-subtle">Reference</span></td>
+                <td>Semester 3</td>
+                <td><a class="btn btn-light" href="assets/resources/html-css-basics.txt" download><i class="bi bi-download" aria-hidden="true"></i>Download</a></td>
+              </tr>
+              <tr class="item c-question-paper">
+                <td>
+                  <div class="resource-name">
+                    <span class="file-icon"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></span>
+                    <div>Data Structures — Practice Questions<small>TXT · Sample document</small></div>
+                  </div>
+                </td>
+                <td>Data Structures</td>
+                <td><span class="badge-subtle">Question Paper</span></td>
+                <td>Semester 3</td>
+                <td><a class="btn btn-light" href="assets/resources/data-structures-practice.txt" download><i class="bi bi-download" aria-hidden="true"></i>Download</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p class="notice-demo"><i class="bi bi-info-circle" aria-hidden="true"></i> Downloads are local sample text documents for demonstration, not official course materials.</p>
+
+      <div class="portal-footnote">Campus Connect · Demonstration content and fictional student details.</div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+CAMPUS CONNECT — SAMPLE QUESTION PAPER
+Operating Systems
+Semester 5 | Illustrative practice paper, not a real previous examination
+Time: 2 hours | Suggested total: 50 marks
+
+Section A — Answer all questions (5 x 2 marks)
+1. Distinguish a process from a thread.
+2. Define a context switch.
+3. List the four necessary conditions for deadlock.
+4. Explain the purpose of a page table.
+5. What is a critical section?
+
+Section B — Answer any four questions (4 x 10 marks)
+6. Compare first-come-first-served and round-robin scheduling.
+   Use an example of three processes to illustrate waiting time.
+7. Describe the producer-consumer problem and a semaphore solution.
+8. Compare paging and segmentation, including fragmentation.
+9. Explain FIFO and LRU page replacement with an example.
+10. Discuss deadlock prevention, avoidance, and detection.
+
+Study note
+Show your working for scheduling and page-replacement problems.
+This sample is provided only to demonstrate the download feature.

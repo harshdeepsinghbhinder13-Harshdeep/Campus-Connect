@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172B4D">
+  <title>Announcements | Campus Connect</title>
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="portal">
+  <a class="skip-link visually-hidden-focusable position-absolute bg-white p-2" href="#main-content">Skip to content</a>
+
+  <input type="checkbox" class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+  <label class="nav-backdrop" for="nav-toggle"></label>
+  <aside class="mobile-nav" aria-label="Navigation">
+    <div class="mobile-nav-head">
+      <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 40" fill="none">
+            <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+          </svg>
+        </span>
+        Campus Connect
+      </a>
+      <label class="btn-close" for="nav-toggle" aria-label="Close navigation"></label>
+    </div>
+    <div class="mobile-nav-body">
+      <nav class="sidebar-nav">
+        <a href="dashboard.html"><i class="bi bi-grid" aria-hidden="true"></i>Dashboard</a>
+        <a href="events.html"><i class="bi bi-calendar4-event" aria-hidden="true"></i>Events</a>
+        <a href="announcements.html" class="active" aria-current="page"><i class="bi bi-megaphone" aria-hidden="true"></i>Announcements</a>
+        <a href="resources.html"><i class="bi bi-journal-text" aria-hidden="true"></i>Resources</a>
+        <a href="clubs.html"><i class="bi bi-people" aria-hidden="true"></i>Clubs</a>
+        <a href="profile.html"><i class="bi bi-person" aria-hidden="true"></i>Profile</a>
+      </nav>
+      <a class="mobile-public-link d-block mt-4" href="index.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to campus home</a>
+    </div>
+  </aside>
+
+  <aside class="sidebar">
+    <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 36 40" fill="none">
+          <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+        </svg>
+      </span>
+      Campus Connect
+    </a>
+    <p class="sidebar-tagline">Your Campus. One Platform.</p>
+    <span class="sidebar-label">STUDENT PORTAL</span>
+    <nav class="sidebar-nav" aria-label="Student navigation">
+      <a href="dashboard.html"><i class="bi bi-grid" aria-hidden="true"></i>Dashboard</a>
+      <a href="events.html"><i class="bi bi-calendar4-event" aria-hidden="true"></i>Events</a>
+      <a href="announcements.html" class="active" aria-current="page"><i class="bi bi-megaphone" aria-hidden="true"></i>Announcements</a>
+      <a href="resources.html"><i class="bi bi-journal-text" aria-hidden="true"></i>Resources</a>
+      <a href="clubs.html"><i class="bi bi-people" aria-hidden="true"></i>Clubs</a>
+      <a href="profile.html"><i class="bi bi-person" aria-hidden="true"></i>Profile</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <a href="index.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to campus home</a>
+      <p>Demo portal · Fictional student data.</p>
+    </div>
+  </aside>
+
+  <div class="portal-shell">
+    <header class="portal-topbar">
+      <div class="breadcrumb-small">
+        <a href="index.html">Home</a>
+        <i class="bi bi-chevron-right" aria-hidden="true"></i>
+        <span>Announcements</span>
+      </div>
+      <div class="mobile-brand">
+        <label class="btn menu-toggle" for="nav-toggle" aria-label="Open navigation"><i class="bi bi-list" aria-hidden="true"></i></label>
+        <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 40" fill="none">
+              <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+            </svg>
+          </span>
+          Campus Connect
+        </a>
+      </div>
+      <a href="profile.html" class="account-link">
+        <span>Abhinav Nandeshwar</span>
+        <span class="avatar">AN</span>
+      </a>
+    </header>
+
+    <main class="portal-main" id="main-content">
+      <div class="page-header">
+        <h1>Announcements</h1>
+        <p>New notices from your college, all in one place.</p>
+      </div>
+      <div class="filterable">
+        <div class="filter-bar" role="radiogroup" aria-label="Filter announcements by category">
+          <input class="chip-input" type="radio" name="filter" id="f-all" checked>
+          <label class="chip" for="f-all">All</label>
+          <input class="chip-input" type="radio" name="filter" id="f-academic">
+          <label class="chip" for="f-academic">Academic</label>
+          <input class="chip-input" type="radio" name="filter" id="f-campus">
+          <label class="chip" for="f-campus">Campus</label>
+          <input class="chip-input" type="radio" name="filter" id="f-financial-aid">
+          <label class="chip" for="f-financial-aid">Financial Aid</label>
+          <input class="chip-input" type="radio" name="filter" id="f-sports">
+          <label class="chip" for="f-sports">Sports</label>
+          <input class="chip-input" type="radio" name="filter" id="f-events">
+          <label class="chip" for="f-events">Events</label>
+        </div>
+        <div class="notice-list">
+          <article class="announcement important item c-academic">
+            <div class="notice-meta">
+              <span class="category blue">Academic</span>
+              <time>20 Nov 2026</time>
+              <span class="badge-subtle">Important</span>
+            </div>
+            <h3>Semester Examination Schedule Released</h3>
+            <p>The end-semester examination timetable for all departments is now available. Review your subject dates before planning your study schedule.</p>
+            <a class="text-link" href="announcements.html#notice-1">Read more <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="announcement item c-campus">
+            <div class="notice-meta">
+              <span class="category">Campus</span>
+              <time>19 Nov 2026</time>
+            </div>
+            <h3>Library Hours Extended During Exams</h3>
+            <p>A little more time to study. The Central Library will stay open until 10 PM during the examination period.</p>
+            <a class="text-link" href="announcements.html#notice-2">Read more <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="announcement important item c-financial-aid">
+            <div class="notice-meta">
+              <span class="category">Financial Aid</span>
+              <time>18 Nov 2026</time>
+              <span class="badge-subtle">Important</span>
+            </div>
+            <h3>Scholarship Applications Now Open</h3>
+            <p>Applications for the next semester’s student support scholarships are open until 30 November.</p>
+            <a class="text-link" href="announcements.html#notice-3">Read more <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="announcement item c-sports">
+            <div class="notice-meta">
+              <span class="category">Sports</span>
+              <time>17 Nov 2026</time>
+            </div>
+            <h3>Annual Sports Meet Registration</h3>
+            <p>Track, field, and team events return this December. Submit your entries through your department sports coordinator.</p>
+            <a class="text-link" href="announcements.html#notice-4">Read more <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          </article>
+          <article class="announcement item c-events">
+            <div class="notice-meta">
+              <span class="category">Events</span>
+              <time>16 Nov 2026</time>
+            </div>
+            <h3>Web Development Workshop Registration</h3>
+            <p>The Coding Club is hosting a beginner-friendly web workshop on 24 November. Registration is open to all students.</p>
+            <a class="text-link" href="announcements.html#notice-5">Read more <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          </article>
+        </div>
+      </div>
+      <p class="notice-demo">All notices and dates on this portal are demonstration data, not official college communications.</p>
+
+      <div class="portal-footnote">Campus Connect · Demonstration content and fictional student details.</div>
+    </main>
+  </div>
+
+  <div class="dialog" id="notice-1" role="dialog" aria-modal="true" aria-labelledby="notice-1-title">
+    <a class="dialog-backdrop" href="#" aria-label="Close"></a>
+    <div class="dialog-box">
+      <div class="dialog-header">
+        <h2 id="notice-1-title">Semester Examination Schedule Released</h2>
+        <a class="btn-close" href="#" aria-label="Close"></a>
+      </div>
+      <div class="dialog-body">
+        <span class="category">Academic</span>
+        <p class="small mt-2">20 Nov 2026 · Campus notice board</p>
+        <p>Semester 5 examinations run from 7–18 December 2026. Students should check the department notice board for their individual subject timetable and report any clashes to the examination office by 25 November. Carry your student ID and hall ticket to every examination.</p>
+        <p class="notice-demo border-top pt-3 mb-0">Demonstration notice. Not an official university communication.</p>
+      </div>
+      <div class="dialog-footer">
+        <a class="btn btn-light" href="#">Close</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="dialog" id="notice-2" role="dialog" aria-modal="true" aria-labelledby="notice-2-title">
+    <a class="dialog-backdrop" href="#" aria-label="Close"></a>
+    <div class="dialog-box">
+      <div class="dialog-header">
+        <h2 id="notice-2-title">Library Hours Extended During Exams</h2>
+        <a class="btn-close" href="#" aria-label="Close"></a>
+      </div>
+      <div class="dialog-body">
+        <span class="category">Campus</span>
+        <p class="small mt-2">19 Nov 2026 · Campus notice board</p>
+        <p>From 23 November to 18 December, the Central Library reading rooms will be open Monday to Saturday, 8 AM–10 PM. The lending desk closes at 7 PM. Quiet-study guidelines remain in effect.</p>
+        <p class="notice-demo border-top pt-3 mb-0">Demonstration notice. Not an official university communication.</p>
+      </div>
+      <div class="dialog-footer">
+        <a class="btn btn-light" href="#">Close</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="dialog" id="notice-3" role="dialog" aria-modal="true" aria-labelledby="notice-3-title">
+    <a class="dialog-backdrop" href="#" aria-label="Close"></a>
+    <div class="dialog-box">
+      <div class="dialog-header">
+        <h2 id="notice-3-title">Scholarship Applications Now Open</h2>
+        <a class="btn-close" href="#" aria-label="Close"></a>
+      </div>
+      <div class="dialog-body">
+        <span class="category">Financial Aid</span>
+        <p class="small mt-2">18 Nov 2026 · Campus notice board</p>
+        <p>Students may submit their academic transcript, household income statement, and a short personal statement to the Student Support Office, Administration Block, Room 104, by 4 PM on 30 November. This is demonstration information, not a real scholarship offer.</p>
+        <p class="notice-demo border-top pt-3 mb-0">Demonstration notice. Not an official university communication.</p>
+      </div>
+      <div class="dialog-footer">
+        <a class="btn btn-light" href="#">Close</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="dialog" id="notice-4" role="dialog" aria-modal="true" aria-labelledby="notice-4-title">
+    <a class="dialog-backdrop" href="#" aria-label="Close"></a>
+    <div class="dialog-box">
+      <div class="dialog-header">
+        <h2 id="notice-4-title">Annual Sports Meet Registration</h2>
+        <a class="btn-close" href="#" aria-label="Close"></a>
+      </div>
+      <div class="dialog-body">
+        <span class="category">Sports</span>
+        <p class="small mt-2">17 Nov 2026 · Campus notice board</p>
+        <p>The demonstration annual sports meet is scheduled for 5 December. Team captains should submit participant lists to their department coordinator by 27 November. Individual events are open to all semesters.</p>
+        <p class="notice-demo border-top pt-3 mb-0">Demonstration notice. Not an official university communication.</p>
+      </div>
+      <div class="dialog-footer">
+        <a class="btn btn-light" href="#">Close</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="dialog" id="notice-5" role="dialog" aria-modal="true" aria-labelledby="notice-5-title">
+    <a class="dialog-backdrop" href="#" aria-label="Close"></a>
+    <div class="dialog-box">
+      <div class="dialog-header">
+        <h2 id="notice-5-title">Web Development Workshop Registration</h2>
+        <a class="btn-close" href="#" aria-label="Close"></a>
+      </div>
+      <div class="dialog-body">
+        <span class="category">Events</span>
+        <p class="small mt-2">16 Nov 2026 · Campus notice board</p>
+        <p>Build for the Web takes place in Innovation Lab, Block B, from 10 AM to 1 PM. Register from the Campus Events page. Please bring a laptop; no previous programming experience is required.</p>
+        <p class="notice-demo border-top pt-3 mb-0">Demonstration notice. Not an official university communication.</p>
+      </div>
+      <div class="dialog-footer">
+        <a class="btn btn-light" href="#">Close</a>
+        <a class="btn btn-primary" href="events.html#event-web-workshop">View workshop</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

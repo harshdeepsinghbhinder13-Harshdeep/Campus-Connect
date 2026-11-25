@@ -1,0 +1,26 @@
+CAMPUS CONNECT — SAMPLE STUDY MATERIAL
+Computer Networks — Study Notes
+Semester 5 | Demonstration document, not official course material
+
+Layered models
+The TCP/IP model separates application, transport, internet, and link
+responsibilities. Each layer uses the service provided by the layer below.
+
+TCP and UDP
+TCP provides an ordered byte stream with retransmission, flow control,
+and congestion control. UDP provides independent datagrams with a small
+header and no built-in delivery or ordering guarantee.
+
+IP addressing
+IPv4 uses 32-bit addresses. A subnet prefix indicates the network portion.
+A /24 subnet contains 256 addresses; in a conventional LAN, 254 are
+available for hosts after network and broadcast addresses are excluded.
+
+DNS
+The Domain Name System resolves names to records such as IPv4 or IPv6
+addresses. Resolvers cache answers according to their time-to-live.
+
+Practice
+- Trace the steps involved when a browser opens an HTTPS page.
+- Compare the roles of a switch and a router.
+- Divide a /24 network into four equal subnets.

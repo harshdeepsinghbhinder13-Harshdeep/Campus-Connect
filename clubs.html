@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172B4D">
+  <title>Clubs | Campus Connect</title>
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="portal">
+  <a class="skip-link visually-hidden-focusable position-absolute bg-white p-2" href="#main-content">Skip to content</a>
+
+  <input type="checkbox" class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+  <label class="nav-backdrop" for="nav-toggle"></label>
+  <aside class="mobile-nav" aria-label="Navigation">
+    <div class="mobile-nav-head">
+      <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 40" fill="none">
+            <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+          </svg>
+        </span>
+        Campus Connect
+      </a>
+      <label class="btn-close" for="nav-toggle" aria-label="Close navigation"></label>
+    </div>
+    <div class="mobile-nav-body">
+      <nav class="sidebar-nav">
+        <a href="dashboard.html"><i class="bi bi-grid" aria-hidden="true"></i>Dashboard</a>
+        <a href="events.html"><i class="bi bi-calendar4-event" aria-hidden="true"></i>Events</a>
+        <a href="announcements.html"><i class="bi bi-megaphone" aria-hidden="true"></i>Announcements</a>
+        <a href="resources.html"><i class="bi bi-journal-text" aria-hidden="true"></i>Resources</a>
+        <a href="clubs.html" class="active" aria-current="page"><i class="bi bi-people" aria-hidden="true"></i>Clubs</a>
+        <a href="profile.html"><i class="bi bi-person" aria-hidden="true"></i>Profile</a>
+      </nav>
+      <a class="mobile-public-link d-block mt-4" href="index.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to campus home</a>
+    </div>
+  </aside>
+
+  <aside class="sidebar">
+    <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 36 40" fill="none">
+          <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+        </svg>
+      </span>
+      Campus Connect
+    </a>
+    <p class="sidebar-tagline">Your Campus. One Platform.</p>
+    <span class="sidebar-label">STUDENT PORTAL</span>
+    <nav class="sidebar-nav" aria-label="Student navigation">
+      <a href="dashboard.html"><i class="bi bi-grid" aria-hidden="true"></i>Dashboard</a>
+      <a href="events.html"><i class="bi bi-calendar4-event" aria-hidden="true"></i>Events</a>
+      <a href="announcements.html"><i class="bi bi-megaphone" aria-hidden="true"></i>Announcements</a>
+      <a href="resources.html"><i class="bi bi-journal-text" aria-hidden="true"></i>Resources</a>
+      <a href="clubs.html" class="active" aria-current="page"><i class="bi bi-people" aria-hidden="true"></i>Clubs</a>
+      <a href="profile.html"><i class="bi bi-person" aria-hidden="true"></i>Profile</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <a href="index.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to campus home</a>
+      <p>Demo portal · Fictional student data.</p>
+    </div>
+  </aside>
+
+  <div class="portal-shell">
+    <header class="portal-topbar">
+      <div class="breadcrumb-small">
+        <a href="index.html">Home</a>
+        <i class="bi bi-chevron-right" aria-hidden="true"></i>
+        <span>Clubs</span>
+      </div>
+      <div class="mobile-brand">
+        <label class="btn menu-toggle" for="nav-toggle" aria-label="Open navigation"><i class="bi bi-list" aria-hidden="true"></i></label>
+        <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 40" fill="none">
+              <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+            </svg>
+          </span>
+          Campus Connect
+        </a>
+      </div>
+      <a href="profile.html" class="account-link">
+        <span>Abhinav Nandeshwar</span>
+        <span class="avatar">AN</span>
+      </a>
+    </header>
+
+    <main class="portal-main" id="main-content">
+      <div class="page-header">
+        <h1>Find Your Community</h1>
+        <p>Meet people who share your interests.</p>
+      </div>
+      <section class="feature-event">
+        <img src="assets/images/coding.jpg" alt="Student club members working on a shared project">
+        <div class="feature-event-content">
+          <span class="eyebrow">COMMUNITY SPOTLIGHT</span>
+          <h2>Coding Club</h2>
+          <p>Good ideas get better with company. Meet a friendly group of students who learn by building, one project at a time.</p>
+          <p class="metadata"><i class="bi bi-calendar3" aria-hidden="true"></i> Wednesdays, 4 PM · Innovation Lab</p>
+          <div class="card-actions">
+            <span class="text-muted small">128 demo members</span>
+            <span>
+              <input class="toggle" type="checkbox" id="join-coding-featured">
+              <label class="btn btn-outline-primary" for="join-coding-featured"><span class="when-off">Join club</span><span class="when-on"><i class="bi bi-check2" aria-hidden="true"></i>Joined · Leave</span></label>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-heading">
+        <h2 class="h5">Explore student clubs</h2>
+        <span class="results-count">6 communities · Open to everyone</span>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <article class="club-card">
+            <div class="club-top">
+              <span class="club-logo"><i class="bi bi-code-slash" aria-hidden="true"></i></span>
+              <div>
+                <h3>Coding Club</h3>
+                <span class="category">Technology</span>
+              </div>
+            </div>
+            <p>Build things, break things, figure them out together. Weekly coding sessions, projects, and friendly hackathons.</p>
+            <div class="club-bottom">
+              <span><i class="bi bi-people" aria-hidden="true"></i> 128 sample members</span>
+              <span>
+                <input class="toggle" type="checkbox" id="join-coding">
+                <label class="btn btn-outline-primary" for="join-coding"><span class="when-off">Join club</span><span class="when-on"><i class="bi bi-check2" aria-hidden="true"></i>Joined · Leave</span></label>
+              </span>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="club-card">
+            <div class="club-top">
+              <span class="club-logo"><i class="bi bi-robot" aria-hidden="true"></i></span>
+              <div>
+                <h3>Robotics Club</h3>
+                <span class="category">Technology</span>
+              </div>
+            </div>
+            <p>From the first circuit to a moving prototype. A hands-on space for curious engineers and makers.</p>
+            <div class="club-bottom">
+              <span><i class="bi bi-people" aria-hidden="true"></i> 64 sample members</span>
+              <span>
+                <input class="toggle" type="checkbox" id="join-robotics">
+                <label class="btn btn-outline-primary" for="join-robotics"><span class="when-off">Join club</span><span class="when-on"><i class="bi bi-check2" aria-hidden="true"></i>Joined · Leave</span></label>
+              </span>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="club-card">
+            <div class="club-top">
+              <span class="club-logo"><i class="bi bi-camera" aria-hidden="true"></i></span>
+              <div>
+                <h3>Photography Club</h3>
+                <span class="category">Creative</span>
+              </div>
+            </div>
+            <p>See campus a little differently. Photo walks, editing sessions, and stories told through your lens.</p>
+            <div class="club-bottom">
+              <span><i class="bi bi-people" aria-hidden="true"></i> 92 sample members</span>
+              <span>
+                <input class="toggle" type="checkbox" id="join-photography">
+                <label class="btn btn-outline-primary" for="join-photography"><span class="when-off">Join club</span><span class="when-on"><i class="bi bi-check2" aria-hidden="true"></i>Joined · Leave</span></label>
+              </span>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="club-card">
+            <div class="club-top">
+              <span class="club-logo"><i class="bi bi-music-note-beamed" aria-hidden="true"></i></span>
+              <div>
+                <h3>Music Club</h3>
+                <span class="category">Arts &amp; Culture</span>
+              </div>
+            </div>
+            <p>A place for bedroom guitarists, vocalists, and anyone who loves a good jam. All genres welcome.</p>
+            <div class="club-bottom">
+              <span><i class="bi bi-people" aria-hidden="true"></i> 86 sample members</span>
+              <span>
+                <input class="toggle" type="checkbox" id="join-music">
+                <label class="btn btn-outline-primary" for="join-music"><span class="when-off">Join club</span><span class="when-on"><i class="bi bi-check2" aria-hidden="true"></i>Joined · Leave</span></label>
+              </span>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="club-card">
+            <div class="club-top">
+              <span class="club-logo"><i class="bi bi-dribbble" aria-hidden="true"></i></span>
+              <div>
+                <h3>Sports Club</h3>
+                <span class="category">Sports</span>
+              </div>
+            </div>
+            <p>Find your team or try something new. Regular practice sessions, friendly matches, and campus tournaments.</p>
+            <div class="club-bottom">
+              <span><i class="bi bi-people" aria-hidden="true"></i> 156 sample members</span>
+              <span>
+                <input class="toggle" type="checkbox" id="join-sports">
+                <label class="btn btn-outline-primary" for="join-sports"><span class="when-off">Join club</span><span class="when-on"><i class="bi bi-check2" aria-hidden="true"></i>Joined · Leave</span></label>
+              </span>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="club-card">
+            <div class="club-top">
+              <span class="club-logo"><i class="bi bi-lightbulb" aria-hidden="true"></i></span>
+              <div>
+                <h3>Entrepreneurship Cell</h3>
+                <span class="category">Business</span>
+              </div>
+            </div>
+            <p>Talk through your first idea, meet fellow student founders, and learn the practical side of starting something.</p>
+            <div class="club-bottom">
+              <span><i class="bi bi-people" aria-hidden="true"></i> 73 sample members</span>
+              <span>
+                <input class="toggle" type="checkbox" id="join-entrepreneurship">
+                <label class="btn btn-outline-primary" for="join-entrepreneurship"><span class="when-off">Join club</span><span class="when-on"><i class="bi bi-check2" aria-hidden="true"></i>Joined · Leave</span></label>
+              </span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="portal-footnote">Campus Connect · Demonstration content and fictional student details.</div>
+    </main>
+  </div>
+</body>
+</html>

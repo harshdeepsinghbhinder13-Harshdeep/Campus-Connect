@@ -1,0 +1,31 @@
+CAMPUS CONNECT — SAMPLE STUDY MATERIAL
+Web Development — HTML & CSS Basics
+Semester 3 | Demonstration document, not official course material
+
+Semantic HTML
+Use header, nav, main, section, article, and footer to describe meaning.
+Each page should have a descriptive title and a clear main heading.
+Use anchors for navigation and buttons for actions.
+
+The box model
+An element's box includes content, padding, border, and margin.
+With box-sizing: border-box, declared width includes padding and border.
+
+Responsive layouts
+Start with readable single-column content. Introduce columns when the
+available space supports them. Use flexible widths and responsive images.
+
+Example
+<main>
+  <h1>Campus events</h1>
+  <article>
+    <h2>Web workshop</h2>
+    <p>A practical introduction to building a website.</p>
+  </article>
+</main>
+
+Accessibility checklist
+- Associate a visible label with each form field.
+- Write helpful alternative text for meaningful images.
+- Preserve a visible keyboard focus indicator.
+- Check text contrast and avoid using color alone for meaning.

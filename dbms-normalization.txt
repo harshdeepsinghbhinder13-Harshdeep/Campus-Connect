@@ -1,0 +1,27 @@
+CAMPUS CONNECT — SAMPLE STUDY MATERIAL
+DBMS — Normalization Guide
+Semester 5 | Demonstration document, not official course material
+
+Normalization reduces avoidable redundancy and update anomalies.
+
+First normal form (1NF)
+Every attribute contains an atomic value, with no repeating groups.
+Instead of storing several course codes in one cell, store separate rows.
+
+Second normal form (2NF)
+The relation is in 1NF and every non-prime attribute is fully dependent
+on each candidate key. This matters when a candidate key is composite.
+
+Third normal form (3NF)
+For each non-trivial functional dependency X -> A, either X is a
+superkey or A is a prime attribute.
+
+Example
+Enrollment(StudentID, CourseID, StudentName, CourseName, Grade)
+Separate student details into Student(StudentID, StudentName), course
+details into Course(CourseID, CourseName), and retain
+Enrollment(StudentID, CourseID, Grade).
+
+Practice
+Identify candidate keys, functional dependencies, and possible update
+anomalies before proposing a lossless decomposition.

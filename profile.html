@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172B4D">
+  <title>Profile | Campus Connect</title>
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="portal">
+  <a class="skip-link visually-hidden-focusable position-absolute bg-white p-2" href="#main-content">Skip to content</a>
+
+  <input type="checkbox" class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+  <label class="nav-backdrop" for="nav-toggle"></label>
+  <aside class="mobile-nav" aria-label="Navigation">
+    <div class="mobile-nav-head">
+      <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 40" fill="none">
+            <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+          </svg>
+        </span>
+        Campus Connect
+      </a>
+      <label class="btn-close" for="nav-toggle" aria-label="Close navigation"></label>
+    </div>
+    <div class="mobile-nav-body">
+      <nav class="sidebar-nav">
+        <a href="dashboard.html"><i class="bi bi-grid" aria-hidden="true"></i>Dashboard</a>
+        <a href="events.html"><i class="bi bi-calendar4-event" aria-hidden="true"></i>Events</a>
+        <a href="announcements.html"><i class="bi bi-megaphone" aria-hidden="true"></i>Announcements</a>
+        <a href="resources.html"><i class="bi bi-journal-text" aria-hidden="true"></i>Resources</a>
+        <a href="clubs.html"><i class="bi bi-people" aria-hidden="true"></i>Clubs</a>
+        <a href="profile.html" class="active" aria-current="page"><i class="bi bi-person" aria-hidden="true"></i>Profile</a>
+      </nav>
+      <a class="mobile-public-link d-block mt-4" href="index.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to campus home</a>
+    </div>
+  </aside>
+
+  <aside class="sidebar">
+    <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 36 40" fill="none">
+          <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+        </svg>
+      </span>
+      Campus Connect
+    </a>
+    <p class="sidebar-tagline">Your Campus. One Platform.</p>
+    <span class="sidebar-label">STUDENT PORTAL</span>
+    <nav class="sidebar-nav" aria-label="Student navigation">
+      <a href="dashboard.html"><i class="bi bi-grid" aria-hidden="true"></i>Dashboard</a>
+      <a href="events.html"><i class="bi bi-calendar4-event" aria-hidden="true"></i>Events</a>
+      <a href="announcements.html"><i class="bi bi-megaphone" aria-hidden="true"></i>Announcements</a>
+      <a href="resources.html"><i class="bi bi-journal-text" aria-hidden="true"></i>Resources</a>
+      <a href="clubs.html"><i class="bi bi-people" aria-hidden="true"></i>Clubs</a>
+      <a href="profile.html" class="active" aria-current="page"><i class="bi bi-person" aria-hidden="true"></i>Profile</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <a href="index.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to campus home</a>
+      <p>Demo portal · Fictional student data.</p>
+    </div>
+  </aside>
+
+  <div class="portal-shell">
+    <header class="portal-topbar">
+      <div class="breadcrumb-small">
+        <a href="index.html">Home</a>
+        <i class="bi bi-chevron-right" aria-hidden="true"></i>
+        <span>Profile</span>
+      </div>
+      <div class="mobile-brand">
+        <label class="btn menu-toggle" for="nav-toggle" aria-label="Open navigation"><i class="bi bi-list" aria-hidden="true"></i></label>
+        <a class="wordmark" href="index.html" aria-label="Campus Connect home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 40" fill="none">
+              <path d="M3 15 18 5l15 10M6 15h24M8 17v14m7-14v14m7-14v14m7-14v14M4 33h28M2 37h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M18 1v5m0-5h7l-2 3h-5" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M14 12h8" stroke="#E99A45" stroke-width="2"/>
+            </svg>
+          </span>
+          Campus Connect
+        </a>
+      </div>
+      <a href="profile.html" class="account-link">
+        <span>Abhinav Nandeshwar</span>
+        <span class="avatar">AN</span>
+      </a>
+    </header>
+
+    <main class="portal-main" id="main-content">
+      <header class="profile-header">
+        <span class="avatar">AN</span>
+        <div>
+          <h1>Abhinav Nandeshwar</h1>
+          <p>Computer Science <span class="mx-1">·</span> Semester 1</p>
+        </div>
+      </header>
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <section class="panel">
+            <h2>Personal information</h2>
+            <dl class="info-grid mt-4 mb-1">
+              <div>
+                <dt>Student ID</dt>
+                <dd class="text-break">CS2026-057</dd>
+              </div>
+              <div>
+                <dt>Department</dt>
+                <dd class="text-break">Computer Science</dd>
+              </div>
+              <div>
+                <dt>Semester</dt>
+                <dd class="text-break">1</dd>
+              </div>
+              <div>
+                <dt>Email address</dt>
+                <dd class="text-break">26nandeshwaraj@rbunagpur.in</dd>
+              </div>
+            </dl>
+          </section>
+          <p class="notice-demo mt-3"><i class="bi bi-shield-check" aria-hidden="true"></i> This is a demo profile with fictional details.</p>
+        </div>
+        <div class="col-lg-5">
+          <section class="panel">
+            <h2>My campus activity</h2>
+            <div class="activity-label">Registered events</div>
+            <div class="empty-small">No registrations yet. <a href="events.html">Find an event</a></div>
+            <div class="activity-label">Joined clubs</div>
+            <div class="empty-small">Your next community is out there. <a href="clubs.html">Browse clubs</a></div>
+          </section>
+        </div>
+      </div>
+
+      <div class="portal-footnote">Campus Connect · Demonstration content and fictional student details.</div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+CAMPUS CONNECT — SAMPLE PRACTICE QUESTIONS
+Data Structures
+Semester 3 | Demonstration document, not official course material
+
+1. Implement a queue using two stacks. Discuss amortized complexity.
+2. Write a function that reverses a singly linked list.
+3. Determine whether a string contains balanced parentheses.
+4. Trace binary search on [3, 8, 12, 17, 21, 29, 34] for target 21.
+5. Compare best, average, and worst-case insertion-sort complexity.
+6. Explain how a hash table resolves collisions using chaining.
+7. Give preorder, inorder, and postorder traversals for a binary tree
+   with root 8, children 4 and 12, and grandchildren 2, 6, 10, and 14.
+8. Describe breadth-first search using a queue.
+9. Explain the trade-offs between an adjacency matrix and a list.
+10. Design a simple undo history using an appropriate data structure.
+
+Suggested approach
+State assumptions, write clear pseudocode, trace a small example,
+and finish by explaining time and additional-space complexity.
